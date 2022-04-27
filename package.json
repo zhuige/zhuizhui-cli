@@ -1,0 +1,17 @@
+{
+  "name": "zhuizhui-cli",
+  "version": "1.0.0",
+  "description": "zhuizhui-cli",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "zhuizhui",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.4.7",
+    "lerna": "^4.0.0"
+  }
+}

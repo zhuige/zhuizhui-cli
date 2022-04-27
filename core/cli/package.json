@@ -1,0 +1,40 @@
+{
+  "name": "@zhuizhui-cli/cli",
+  "version": "1.0.0",
+  "description": "zhuizhui-cli cli",
+  "author": "zhuizhui <792972988@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "",
+  "bin": {
+    "zhuizhui-cli": "bin/index.js"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@zhuizhui-cli/get-npm-info": "file:../../utils/get-npm-info",
+    "@zhuizhui-cli/init": "file:../../commands/init",
+    "@zhuizhui-cli/log": "file:../../utils/log",
+    "@zhuizhui-cli/exec": "file:../exec",
+    "colors": "^1.4.0",
+    "commander": "^8.1.0",
+    "dotenv": "^10.0.0",
+    "import-local": "^3.0.2",
+    "npmlog": "^5.0.0",
+    "path-exists": "^4.0.0",
+    "root-check": "^1.0.0",
+    "semver": "^7.3.5",
+    "user-home": "^3.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
